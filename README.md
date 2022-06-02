@@ -1,2 +1,2 @@
 # PhoneBook-php
-db qovluğunda Bazanın modlidir.
+db qovluğunda Bazanın modelidir.
