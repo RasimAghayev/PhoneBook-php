@@ -14,11 +14,11 @@
             <h2>Contact Form</h2>
             <div class="two_column">
                 <label>
-                    <input type="radio" name="test" value="man" checked>
+                    <input type="radio" name="gender" value="M" checked>
                     <img src="img/man.png" alt="">
                 </label>
                 <label>
-                    <input type="radio" name="test" value="woman">
+                    <input type="radio" name="gender" value="W">
                     <img src="img/woman.png" alt="">
                 </label>
             </div>
@@ -40,12 +40,12 @@
             <label>
                 <input type="text" name="address" placeholder="Your Address" required/>
             </label>
-            <label for="message"></label><textarea name="message" id="message" cols="30" rows="7" placeholder="Your Message" required></textarea>
+            <label for="message"></label>
+            <textarea name="message" id="message" cols="30" rows="7" placeholder="Your Message" required></textarea>
             <div class="box">
                 <div class="box__input">
                     <input class="box__file" type="file" name="files[]" id="file" data-multiple-caption="{count} files selected" multiple />
                     <label for="file"><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here</span>.</label>
-                    <button class="box__button" type="submit">Upload</button>
                 </div>
                 <div class="box__uploading">Uploading…</div>
                 <div class="box__success">Done!</div>
