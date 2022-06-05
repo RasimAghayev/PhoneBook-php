@@ -165,7 +165,7 @@ function sendMail(){
     $mail->Username = 'tehzeh159@gmail.com';
 
 //Password to use for SMTP authentication
-    $mail->Password = 'esfemgwrtpfdkgnu';
+    $mail->Password = 'XXXXXXXXXXXXXXXXXXXXXX';
 
 //Set who the message is to be sent from
     $mail->setFrom('rasimaqayev@gmail.com', 'First Last');
